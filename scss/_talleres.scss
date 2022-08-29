@@ -31,18 +31,21 @@
     transform: scale(1, 1.5);
     transition: 4s;
 }
-.card-talleres {
-    background-color: beige;
-}
+
  
 #carouselContainer {
     width: 620px;
     height: 240px;
+    margin-block-end: 100px;
 }
  
 .card {
-    width: 100;
-    height: 100;
+    width: 100px;
+    height: 100px;
+}
+
+.separar {
+    margin: 100px;
 }
  
 .bordesredondeados {
