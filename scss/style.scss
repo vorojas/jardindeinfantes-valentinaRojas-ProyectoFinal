@@ -16,32 +16,36 @@
     height: 240px;
     
 }
- 
-.imagen {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: stretch;
-    align-content: stretch;
+
+.fotos {
+    text-align: center;
+}
+
+.foto {
+    margin-top: 100px;
+    width: 500px;
+    height: 600px;
+}
+
+.foto-bebes {
+    margin-top: 100px;
+    width: 620px;
+    height: 440px;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    margin-top: 150px;
 }
  
-.image-presentacion {
-    display: flex;
-    background-color: lightgrey;
-    border: 15px solid pink;
-    height: 450px;
-    width: 700px;
-    padding: 10px;
-   
+.titulos-index {
+    text-align: center;
+    
 }
- 
-.aside {
-    display: flex;
-    background-color: bisque;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-}
+
  
 .image-contacto {
     grid-template-columns: auto;
@@ -108,7 +112,7 @@
 $redes: (
     instagram: rgb(148, 44, 148),
     facebook: #1f3a75,
-    whatsapp: rgb(7, 179, 7),
+    whatsapp: rgb(179, 240, 179),
 );
  
 @each $red, $color in $redes {
