@@ -16,9 +16,9 @@
   </head>
 <body>
     <nav>
-        <article class="titulo">
-        <h1 class="titulo-galeria">Nuestros espacios y salas</h1>
-        </article>
+      <article class="titulo--index" class="container">
+        <h1 id="tituloprincipal">Nuestros espacios y salas</h1>
+       </article>
       </nav>
  
      
@@ -31,7 +31,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="historia.html">Historia</a>
@@ -58,9 +58,9 @@
         </div>
       </nav>
    
-      <section>
+      <section class="container">
         <article class="subtitle">
-            <h3 class="subtitulo_ubicacion">Entrada</h3>
+            <h3 class="titulo_formulario">Entrada</h3>
         </article>
       </section>
      
@@ -72,38 +72,30 @@
             </article>
         </section>
    
-        <section>
+        <section class="container">
             <article class="subtitle">
-                <h3 class="subtitulo_ubicacion">Patio de Juegos</h3>
+                <h3 class="titulo_formulario">Patio de Juegos</h3>
             </article>
           </section>
-   
-        <section class="cards">
-            <article>
-             <div class="card">
-              <img src="img/espacio2.jpg" alt="espacio2.jpg" class="card-image"/>
-             </div>
-            </article>
-        </section>
-   
-        <section class="cards">
-            <article>
-             <div class="card">
-              <img src="img/espacio3.jpg" alt="espacio3.jpg" class="card-image"/>
-             </div>
-            </article>
-        </section>
-   
-        <section class="cards">
-            <article>
-             <div class="card">
-              <img src="img/espacio4.jpg" alt="espacio4.jpg" class="card-image"/>
-             </div>
-            </article>
-        </section>
+
+        <div class="container">
+          <ul class="row">
+            <li>
+                <img alt="" src="img/espacio2.jpg" class="card-image" class="col-6 col-sm-4">
+                <div class="text">Nuestro gusano de gomas</div>
+            </li>
+            <li>
+                <img alt=""  src="img/espacio3.jpg" class="card-image" class="col-6 col-sm-4">
+                <div class="text">Puentecito con escalador</div>
+            </li>
+            <li>
+                <img alt=""  src="img/espacio4.jpg" class="card-image" class="col-6 col-sm-4">
+                 <div class="text">Gusanito</div>
+            </li>
+          </ul>  
+        </div>
  
- 
-        <footer class="container">
+        <footer class="container-fluid">
             <div class="cierre">
                 <h5 class="cierretexto">Jardín maternal y prejardín "La tortuguita Mimosa"</h5>
            </div>
