@@ -3,11 +3,10 @@
 }
  
 .titulo_formulario {
-    font-size: 50px;
+    background-image: linear-gradient(to right, lightsalmon, aqua);
+    font-style: italic;
     font-family: arial;
-    font-style: oblique;
-    margin-left: 350px;
-    margin-right: 300px;
+    padding: 15px;
 }
  
 .text-formulario {
@@ -16,12 +15,7 @@
     font-family: arial;
     font-style: italic;
 }
- 
-.text-formulario_leter {
-    font-size: 15px;
-    font-family: arial;
-    font-style: normal;
-}
+
  
 .pagina {
     font-size: 25px;
@@ -42,6 +36,11 @@
  
 .btn--limpiar {
     @extend .btn;
-    background-color: rgb(211, 74, 25);
+    background-color: rgb(218, 153, 129);
+}
+
+.btn--enviar {
+    @extend .btn;
+    background-color: rgb(168, 236, 168);
 }
  

@@ -135,9 +135,6 @@ aside .div .a {
     grid-column: 3/4;
     grid-row: 1/4; }
 
-.container-historia {
-  margin-top: 100px; }
-
 .titulos-historia {
   text-align: center; }
 
@@ -207,31 +204,28 @@ aside .div .a {
   padding: 10px; }
 
 .informacion:hover {
-  background-color: palegreen;
-  transform: scale(1, 1.5);
+  background-color: #bbf5bb;
+  transform: scale(1, 1);
   transition: 4s; }
 
 #carouselContainer {
   width: 620px;
   height: 240px;
-  margin-block-end: 100px; }
+  margin-bottom: 150px;
+  margin-top: 100px; }
 
-.card {
-  width: 100px;
-  height: 100px; }
+.cuerpo {
+  width: 440px;
+  height: 620px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .separar {
-  margin: 100px; }
+  margin-top: 100px; }
 
-.bordesredondeados {
-  width: 200px;
-  height: 200px;
-  border-radius: 20px;
-  margin-top: 20px;
-  margin-right: 15px;
-  margin-bottom: 15px;
-  margin-left: 15px;
-  display: inline; }
+h3 {
+  text-align: center; }
 
 .titulo {
   background-color: blueviolet; }
@@ -274,11 +268,10 @@ aside .div .a {
   background-color: lightskyblue; }
 
 .titulo_formulario {
-  font-size: 50px;
+  background-image: linear-gradient(to right, lightsalmon, aqua);
+  font-style: italic;
   font-family: arial;
-  font-style: oblique;
-  margin-left: 350px;
-  margin-right: 300px; }
+  padding: 15px; }
 
 .text-formulario {
   background-color: lightpink;
@@ -286,18 +279,13 @@ aside .div .a {
   font-family: arial;
   font-style: italic; }
 
-.text-formulario_leter {
-  font-size: 15px;
-  font-family: arial;
-  font-style: normal; }
-
 .pagina {
   font-size: 25px;
   font-family: arial;
   font-style: italic;
   line-height: 20px; }
 
-.btn, .btn--limpiar {
+.btn, .btn--limpiar, .btn--enviar {
   background-color: lightgreen;
   text-align: center;
   color: black;
@@ -306,7 +294,10 @@ aside .div .a {
   padding: 5px; }
 
 .btn--limpiar {
-  background-color: #d34a19; }
+  background-color: #da9981; }
+
+.btn--enviar {
+  background-color: #a8eca8; }
 
 .ubicacion {
   background-image: linear-gradient(lightcyan, cyan); }

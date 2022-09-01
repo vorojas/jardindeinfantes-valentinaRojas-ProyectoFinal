@@ -13,11 +13,11 @@
  
   </head>
 <body>
-  <nav>
-    <article class="titulo-">
-     <h1 class="titulo_formulario">Formulario de contacto</h1>
-    </article>
-</nav>
+  <nav class="container-fluid">
+     <article class="titulo--index">
+       <h1 id="tituloprincipal">Nos pondremos en contacto</h1>
+     </article>
+    </nav>
  
  
 <nav class="navbar navbar-expand-lg bg-light">
@@ -29,7 +29,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="historia.html">Historia</a>
@@ -58,8 +58,10 @@
  
 <section class="formulario">
 <form action="guardar.php" method="POST">
-    <fieldset>
-      <legend class="text-formulario">Nos pondremos en contacto contigo</legend>
+    <fieldset class="container">
+      <legend class="titulo_formulario">Nos contactaremos contigo</legend>
+      <div class="clearfix">
+        <img src="img/jugando.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
       <div>
         <label class="text-formulario_leter" for="nombre de padre, madre o tutor">Nombre de padre, madre o tutor:</label>
         <input class="text-formulario_leter" type="text" name="nombre de padre, madre o tutor" placeholder="nombre de padre madre o tutor" required></imput>
@@ -115,33 +117,37 @@
             <a href="" class="btn--limpiar" class="text-formulario_leter">Limpiar formulario</a>
              
  
-            <a href="" class="btn"class="text-formulario_leter">Enviar formulario</a>
+            <a href="" class="btn--enviar"class="text-formulario_leter">Enviar formulario</a>
            
           </div>
- 
        
         </fieldset>
     </section>
 </form>
  
-<section class="formulario">
+<section class="container">
     <fieldset>
     <article>
-        <legend class="text-formulario">Tambien podes encontrarnos en:</legend>
+        <legend class="titulo_formulario">Tambien podes encontrarnos en:</legend>
     </article>
     <article>
-        <div>
-            <a class="pagina" href="https://www.instagram.com/latortuguitamimosa/?igshid=1xa15mq549tdt">Instagram</a>
-        </div>
- 
-        <div>
-            <a class="pagina" href="https://m.facebook.com/Latortuguitamimosa-107867071340088/?ref=py_c">Facebook</a>
-        </div>
+      <div>
+        <img src="img/logo instagram.png" alt="" height="30px" width="30px"/>
+        <a class="pagina" class="btn--instagram" href="https://www.instagram.com/latortuguitamimosa/?igshid=1xa15mq549tdt">Instagram</a>
+      </div>
+      <div>
+        <img src="img/logo facebook.png" alt="" height="30px" width="30px"/>
+        <a class="pagina" class="btn--facebook"href="https://m.facebook.com/Latortuguitamimosa-107867071340088/?ref=py_c">Facebook</a>
+      </div>
+      <div>
+        <img src="img/logo whatsapp.png" alt="" height="30px" width="30px"/>
+        <a class="btn--whatsapp">0351-155403199</a>
+      </div>
     </article>
     </fieldset>
 </section>
  
-<footer class="container">
+<footer class="container-fluid">
   <div class="cierre">
       <h5 class="cierretexto">Jardín maternal y prejardín "La tortuguita Mimosa"</h5>
  </div>

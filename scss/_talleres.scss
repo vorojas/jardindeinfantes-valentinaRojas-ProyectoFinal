@@ -27,8 +27,8 @@
 }
  
 .informacion:hover {
-    background-color: palegreen;
-    transform: scale(1, 1.5);
+    background-color: rgb(187, 245, 187);
+    transform: scale(1, 1);
     transition: 4s;
 }
 
@@ -36,25 +36,22 @@
 #carouselContainer {
     width: 620px;
     height: 240px;
-    margin-block-end: 100px;
+    margin-bottom: 150px;
+    margin-top: 100px;
 }
  
-.card {
-    width: 100px;
-    height: 100px;
+.cuerpo {
+    width: 440px;
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .separar {
-    margin: 100px;
+    margin-top: 100px;
 }
  
-.bordesredondeados {
-    width: 200px;
-    height: 200px;
-    border-radius: 20px;
-    margin-top: 20px;
-    margin-right: 15px;
-    margin-bottom: 15px;
-    margin-left: 15px;
-    display: inline;
+h3 {
+    text-align: center;
 }
