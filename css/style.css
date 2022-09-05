@@ -256,7 +256,8 @@ h3 {
 
 .card-image {
   width: 400px;
-  height: 400px; }
+  height: 400px;
+  display: inline; }
 
 .titulo- {
   background-color: lightskyblue; }
@@ -308,12 +309,7 @@ h3 {
   background-image: linear-gradient(lightsalmon, lightgreen, lightcyan); }
 
 .mapa {
-  margin-left: 350px;
-  margin-right: 300px;
-  border-color: turquoise;
-  border: solid 10px;
-  padding-top: 60px;
-  padding-block-end: 60px; }
+  text-align: center; }
 
 .cierre {
   background-color: lightgreen; }
