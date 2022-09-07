@@ -1,5 +1,5 @@
 .titulo--index {
-  background-image: linear-gradient(aquamarine, blueviolet); }
+  background-image: linear-gradient(aquamarine, #6eb86e); }
   .titulo--index #tituloprincipal {
     align-content: center;
     font-size: 40px;
@@ -18,7 +18,7 @@
 
 .foto {
   margin-top: 100px;
-  width: 500px;
+  width: 550px;
   height: 600px; }
 
 .foto-bebes {
@@ -115,7 +115,7 @@ aside .div .a {
   font-size: 30px; }
 
 .titulo--historia {
-  background-image: linear-gradient(aquamarine, blueviolet); }
+  background-image: linear-gradient(aquamarine, #6eb86e); }
   .titulo--historia #tituloprincipal {
     align-content: center;
     font-size: 40px;
@@ -182,7 +182,7 @@ aside .div .a {
     height: 50px; }
 
 .titulo-t {
-  background-image: linear-gradient(aquamarine, blueviolet); }
+  background-image: linear-gradient(aquamarine, #6eb86e); }
 
 .titulo__talleres--uppercase {
   font-size: 30px;
@@ -193,7 +193,7 @@ aside .div .a {
   padding: 20px; }
 
 .titulo__talleres {
-  background-image: linear-gradient(to right, lightsalmon, aqua);
+  background-image: linear-gradient(to right, lightgreen, #6eb86e);
   font-style: italic;
   font-family: arial;
   padding: 15px; }
@@ -260,7 +260,7 @@ h3 {
   background-color: lightskyblue; }
 
 .titulo_formulario {
-  background-image: linear-gradient(to right, lightsalmon, aqua);
+  background-image: linear-gradient(to right, lightgreen, #6eb86e);
   font-style: italic;
   font-family: arial;
   padding: 15px; }
